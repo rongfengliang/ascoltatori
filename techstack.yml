@@ -1,0 +1,286 @@
+repo_name: rongfengliang/ascoltatori
+report_id: 05eb9652c9f223071779ce8a5ed0419e
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:01:32+00:00'
+requested_by: mcollina
+provider: github
+branch: master
+detected_tools_count: 20
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rongfengliang/ascoltatori
+  detection_source: Repo Metadata
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Matteo Collina
+  last_updated_on: 2015-06-22 09:32:11.000000000 Z
+- name: Mosca
+  description: A Node.js MQTT broker
+  website_url: http://www.mosca.io/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/10482/mosca.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2013-04-30 13:22:47.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2012-10-19 12:45:03.000000000 Z
+- name: Coveralls
+  description: Track your project's code coverage over time, changes to files, and
+    badge your GitHub repo
+  website_url: https://coveralls.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2015-07-09 06:37:26.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori
+  detection_source: Repo Metadata
+- name: Istanbul
+  description: A JS code coverage tool written in JS
+  website_url: http://gotwarlost.github.io/istanbul/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2105/default_78659c552327b8ff3592c2aa1694ea92c974a8d5.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2015-07-09 06:37:26.000000000 Z
+- name: JSHint
+  description: A Static Code Analysis Tool for JavaScript
+  website_url: http://www.jshint.com/about/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2012-10-19 12:45:03.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2015-07-09 06:37:26.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 1.10.3
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2014-10-20 07:22:36.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Matteo Collina
+  last_updated_on: 2012-10-27 09:20:00.000000000 Z
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/Vagrantfile
+  detection_source: Vagrantfile
+  last_updated_by: Christopher Hiller
+  last_updated_on: 2015-07-26 07:41:42.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2012-10-19 12:45:03.000000000 Z
+- name: pre-commit
+  description: A slightly improved pre-commit hook for git
+  website_url: http://jish.github.io/pre-commit/
+  version: 0.0.9
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2014-08-07 10:49:36.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori
+  detection_source: Repo Metadata
+- name: async
+  description: Higher-order functions and common patterns for asynchronous code
+  package_url: https://www.npmjs.com/async
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2015-05-29 23:06:24.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2014-10-20 07:22:36.000000000 Z
+  vulnerabilities:
+  - name: debug Inefficient Regular Expression Complexity vulnerability
+    cve_id: CVE-2017-20165
+    cve_url: https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+    detected_date: Jan 11
+    severity: high
+    first_patched: 2.6.9
+  - name: Regular Expression Denial of Service in debug
+    cve_id: CVE-2017-16137
+    cve_url: https://github.com/advisories/GHSA-gxpj-cx7g-858c
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.6.9
+- name: node-uuid
+  description: Rigorous implementation of RFC4122
+  package_url: https://www.npmjs.com/node-uuid
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16142/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2013-03-16 11:46:09.000000000 Z
+  vulnerabilities:
+  - name: Insecure Entropy Source - Math.random() in node-uuid
+    cve_id: CVE-2015-8851
+    cve_url: https://github.com/advisories/GHSA-265q-28rp-chq5
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.4
+- name: optimist
+  description: Light-weight option parsing with an argv hash
+  package_url: https://www.npmjs.com/optimist
+  version: 0.6.0
+  license: MIT,X11
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16145/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2013-09-11 16:32:04.000000000 Z
+- name: sinon-chai
+  description: Extends Chai with assertions for the Sinon.JS mocking framework
+  package_url: https://www.npmjs.com/sinon-chai
+  version: 2.6.0
+  license: BSD-2-Clause,WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15914/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/rongfengliang/ascoltatori/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Matteo Collina
+  last_updated_on: 2014-11-18 08:27:32.000000000 Z
